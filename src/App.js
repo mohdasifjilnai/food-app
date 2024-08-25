@@ -8,6 +8,7 @@ import {Provider} from "react-redux"
 import appStore from "./utils/appStore";
 function App() {
   const [userName,setUserName]=useState(null);
+  console.log(',sjdsadnsa')
   useEffect(()=>{
     const data={
       name:'Asif jilani'
